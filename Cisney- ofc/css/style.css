@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Pathway+Extreme:ital,wght@1,100&family=Poppins&family=Schibsted+Grotesk:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", sans-serif;;
+}
+
+body{
+   margin-top: 250px;
+   background-image: url(fundo);
+   background: rgb(10, 10, 94);
+   height: 10vh;
+   display: flex;
+   align-items:first baseline;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.btn{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    transition: 0,2s ease;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+}
+
+img.franquias{
+    max-width: 600px;
+    position: absolute;
+    bottom: 25px;
+}
+
+img.logo{
+    max-width: 2000px;
+    
+}
+
+.hero-content{
+    margin-top: -20px;
+    padding-left: 90px;
+}
+
+.hero-content p{
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(192, 192, 192, 0.9)
+}
+
+h1{
+    font-size: 35px;
+    line-height: 52px;
+    color: white;
+    margin: 20px 0 30px 0;
+}
+
+.precos{
+    display: flex;
+}
+
+.preco span{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: white;
+}
+
+.preco{
+    width: 300px;
+    max-width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.preco :first-child{
+    display: grid;
+}
+
+.preco:first-child{
+    align-self: end;
+}
+
+.preco a{
+    padding: 16px 14px;
+    background: rgba(58, 58, 219);
+    display: block;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+}
+
+.preco a:hover{
+    background-color: rgb(196, 207, 240);
+}
+
+.preco p:first-child{
+    margin:0
+}
+
+.preco p:first-child{
+    margin: 16px 0;
+}
+
+.preco + .preco{
+    margin-left: 32px;
+}
